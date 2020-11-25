@@ -13,8 +13,8 @@
 #include <PubSubClient.h>
 /************** WIFI and MQTT Stuff************************* */
 char server[] = "io.adafruit.com";  //Server address
-char ssid[] ="Home Sweet Home";
-char pwd[] = "sangale@8087";
+char ssid[] ="Your SSID";
+char pwd[] = "Your Password";
 char aqi_feed[] ="rohirto/feeds/aqi";
 
 int status = WL_IDLE_STATUS;  //Wifi Radio Status
